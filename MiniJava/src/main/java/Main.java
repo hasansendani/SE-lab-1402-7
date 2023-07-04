@@ -9,7 +9,7 @@ public class Main {
         Parser parser = new Parser();
         try {
             // start parsing
-            parser.startParse(new Scanner(new File("src/main/resources/code")));
+            parser.startParse(new Scanner(new File("MiniJava/src/main/resources/code")));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
